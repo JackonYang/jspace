@@ -1,0 +1,3 @@
+[submodule "dotfiles/plugins/flame-graph/FlameGraph"]
+	path = dotfiles/plugins/flame-graph/FlameGraph
+	url = git@github.com:brendangregg/FlameGraph.git

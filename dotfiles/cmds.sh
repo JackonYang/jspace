@@ -12,4 +12,5 @@ function j () {
 	$func_name "${@: 2}"
 }
 
-# alias flame_graph="bash $project_dir/plugins/flame_graph.sh"
+# usage: flame-graph <perf-data-file>
+alias flame-graph="bash $SCRIPT_DIR/plugins/flame-graph/main.sh"
