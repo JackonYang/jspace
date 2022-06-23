@@ -14,3 +14,5 @@ function j () {
 
 # usage: flame-graph <perf-data-file>
 alias flame-graph="bash $SCRIPT_DIR/plugins/flame-graph/main.sh"
+
+alias install-py3-env="pip3 install -r $SCRIPT_DIR/plugins/python-env/requirements-py3.txt"

@@ -14,4 +14,9 @@ j reload
 
 # ---- perf and debug -----
 flame-graph <perf-data-file>
+
+
+# ---- machine learning ----
+# install py3 packages
+install-py3-env
 ```

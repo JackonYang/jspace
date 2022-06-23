@@ -1,0 +1,11 @@
+ipython
+jupyter
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+Pillow
+opencv-python
+nltk
+seaborn
