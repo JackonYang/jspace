@@ -1,5 +1,6 @@
 # usage: flame-graph <perf-data-file>
-SCRIPT_DIR=$(cd $(dirname "$0") && pwd)
+SCRIPT_PATH=${BASH_SOURCE[0]:-$0}
+SCRIPT_DIR=$(cd $(dirname "$SCRIPT_PATH") && pwd)
 flamegraph_path=$SCRIPT_DIR/FlameGraph
 
 perf_data_file=$(realpath $1)

@@ -1,5 +1,6 @@
-SCRIPT_DIR=$(cd $(dirname "$0") && pwd)
-CURRENT_FILE=$SCRIPT_DIR/$(basename "$0")
+SCRIPT_PATH=${BASH_SOURCE[0]:-$0}
+SCRIPT_DIR=$(cd $(dirname "$SCRIPT_PATH") && pwd)
+CURRENT_FILE=$SCRIPT_DIR/$(basename "$SCRIPT_PATH")
 
 function reload() {
 	source $CURRENT_FILE
