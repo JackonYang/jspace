@@ -17,3 +17,5 @@ function j () {
 alias flame-graph="bash $SCRIPT_DIR/plugins/flame-graph/main.sh"
 
 alias install-py3-env="pip3 install -r $SCRIPT_DIR/plugins/python-env/requirements-py3.txt"
+
+alias start-jupyter="bash $SCRIPT_DIR/plugins/jupyter-server/start_jupyter_server.sh"
