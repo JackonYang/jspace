@@ -3,8 +3,10 @@ SCRIPT_DIR=$(cd $(dirname "$SCRIPT_PATH") && pwd)
 CURRENT_FILE=$SCRIPT_DIR/$(basename "$SCRIPT_PATH")
 
 function reload() {
-	source $CURRENT_FILE
-	echo "reloaded $CURRENT_FILE"
+	# source $CURRENT_FILE
+	# echo "reloaded $CURRENT_FILE"
+	source ~/.bashrc
+	echo "reloaded ~/.bashrc"
 }
 
 function j () {
